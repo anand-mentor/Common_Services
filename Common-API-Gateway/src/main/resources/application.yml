@@ -19,7 +19,7 @@ spring:
       - id: Employer-service
         uri: lb://Employer-service
         predicates:
-          - Path=/Employer/**
+          - Path=/employer/**
       - id: USER-APP
         uri: lb://USER-APP
         predicates:
